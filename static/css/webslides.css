@@ -513,6 +513,23 @@ figure.alignleft {
   .size-20 {
     width: 20%; } }
 
+@media (min-width: 768px) {
+  img[class*="align"].size-40,
+  img[class*="align"].size-30,
+  img[class*="align"].size-20 {
+    width: 40%; } }
+
+
+@media (max-width: 768px) {
+  img[class*="align"].size-80,
+  img[class*="align"].size-70,
+  img[class*="align"].size-60,
+  img[class*="align"].size-50,
+  img[class*="align"].size-40,
+  img[class*="align"].size-30,
+  img[class*="align"].size-20 {
+    max-width: 50%; } }
+
 pre,
 code {
   font-family: 'Cousine', monospace; }
@@ -2935,6 +2952,12 @@ button:disabled:hover {
   /* Why 72rem=720px?
   90-95 characters per line = better reading speed */
   /* Mobile: video full width */ }
+@media ( max-width: 720px ) {
+  .longform {
+    width: 100%;
+    max-width: 72rem;
+  }
+}
   .longform .alignleft,
   .longform .alignright {
     max-width: 40%; }
