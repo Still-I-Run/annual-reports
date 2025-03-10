@@ -4072,15 +4072,11 @@ footer #footer-nav li a {
   }
 
   .flexblock.sponsors-narrow li {
-    width: calc(100% / 2 - 2rem);
+    width: calc(100% / 3 - 2rem);
   }
 }
 
 @media (min-width: 1024px) {
-  .flexblock.sponsors li {
-    width: calc(100% / 4 - 2rem);
-  }
-
   .flexblock.sponsors-narrow li {
     width: calc(100% / 4 - 2rem);
   }
@@ -4088,7 +4084,7 @@ footer #footer-nav li a {
 
 @media (min-width: 1440px) {
   .flexblock.sponsors li {
-    width: calc(100% / 4 - 2rem);
+    width: calc(100% / 5 - 2rem);
   }
 
   .flexblock.sponsors-narrow li {
